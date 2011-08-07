@@ -1,5 +1,5 @@
 MVP OSM: a tool that allows to individuate the areas of high activity in
-openstreetmap based on level of detail.
+OpenStreetMap based on level of detail.
 
 By observing the world map which is drawn on OpenStreetMap, it is
 relatively easy to realize which areas are higher in community
@@ -15,11 +15,11 @@ data, or by adding destination information retrieved from other data
 sources ...). The map becomes increasingly rich, but often the concept
 of quality of data is questioned.
 
-MVP OSM wants to highlight areas wherethe osmers dedicate attention to
-detail, which is strongly required the use of a GPS or at least a deep
-knowledge of the area and consequent desire to see it best represented.
+MVP OSM wants to highlight areas where the OSMers dedicate attention to
+details, which strongly requires the use of a GPS or, at least, a deep
+knowledge of the area, and consequent desire to see it best represented.
 
-The input is a file. osm, which is converted by python in a file
-spatialite (the gis extension for sqlite) and then processed for create
-clusters, which are then derive the activity of a single or multiple
-users on the area by create vector gis and heatmaps.
+The input is an .osm file, converted by python in a Spatialite database
+(Spatialite is the GIS extension for SQLite) and then processed to create
+clusters, which are then used to derive the activity of a single or multiple
+users on the area by create vector GIS and heatmaps.
